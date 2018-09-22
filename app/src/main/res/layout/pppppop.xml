@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:background="@color/colorAccent"
+    android:layout_gravity="center"
+    android:numColumns="2"
+    android:padding="4dp"
+    android:scrollbars="none"
+    android:stretchMode="columnWidth"
+    android:visibility="visible"
+    android:id="@+id/submitPopup"
+
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/best"
+            android:onClick="onClick"
+            android:text="Answer A" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/onk"
+            android:onClick="onClick"
+            android:text="answer B"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/onkk"
+            android:onClick="onClick"
+            android:text="answerC"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/onkkk"
+            android:onClick="onClick"
+            android:text="answerD"/>
+
+    </LinearLayout>
+
+</GridLayout>
